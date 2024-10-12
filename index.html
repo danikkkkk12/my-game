@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game words</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Гра у набір в слова</h1></header>
+
+    <div class="container">
+        <!-- Word And Input -->
+        <div class="row">
+            <div class="col">
+                <p class="lead">Введіть дане слово всередині
+                <span class="text-success" id="seconds">5 секунд:</span></p>
+                <h2 class="display-2" id="current-word">Привіт</h2>
+                <div class="wrapper-input">
+                    <input type="text" class="form-control form-control-lg" placeholder="Start Typing..." id="word-input" autofocus>
+                </div>
+                <h4 class="mt-3" id="message"></h4>
+                <div class="row">
+                    <div class="col-s12-m4">
+                        <h3>Часу залишилось:
+                            <span id="time">0</span>
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <h3>Рахунок:
+                            <span id="score">0</span>
+                        </h3>
+                    </div>
+                </div>
+                <br>
+                <div class="jumbotron col-s12">
+                    <h4>Інструкції</h4>
+                    <p>Введіть кожне слово в заданій кількості, щоб отримати бал. Щоб відтворити знову, просто введіть поточне слово. ваш рахунок буде скинуто</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="./index.js"></script>
+</body>
+</html>

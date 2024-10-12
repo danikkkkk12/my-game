@@ -1,0 +1,33 @@
+header{
+  text-align: center;
+  color: white;
+  background-color: midnightblue;
+  padding: 30px;
+}
+.lead{
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+h2{
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+.jumbotron{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  float: initial;
+}
+#message{
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px;
+}
+.wrapper-input{
+  display: flex;
+  justify-content: center;
+}
